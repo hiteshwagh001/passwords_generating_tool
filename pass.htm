@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Password Generator Web App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Password Generator </h1>
+            <p class="card-description">Generate Password Combinations for the brute-Force</p>
+            <div class="inputfiles">
+                <div class="input-container">
+                    <label for="characters-input">Characters:</label>
+                    <input type="text" id="characters-input" placeholder="Enter characters" />
+                </div>
+                <div class="input-container">
+                    <label for="length-input">Maximum Length:</label>
+                    <input type="number" id="length-input" min="1" max="100" value="8" />
+                </div>
+            </div>
+            <div class="vn-blue" style="text-align: center;">
+                <a id="combinations-button" class="button">All Combinations</a>
+            </div>
+            <div class="vn-blue" style="text-align: center;">
+                <a id="fixed-length-button" class="button">Fixed-Length Passwords</a>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
