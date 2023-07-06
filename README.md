@@ -32,3 +32,5 @@ Contributions are welcome! If you have any suggestions, bug reports, or feature 
 The Password Generator Web App is provided as-is and without any warranty. The developers and contributors are not responsible for any misuse or damage caused by the use of this application.
 
 Feel free to update this README with any additional information or instructions specific to your web app.
+
+
